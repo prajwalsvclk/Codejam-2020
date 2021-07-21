@@ -1,4 +1,5 @@
 "Pascal Walk"
+//Its round A Solution
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -34,7 +35,7 @@ public class Solution {
         int T = Integer.valueOf(in.nextLine());
         for (int i = 1; i <= T; ++i) {
             int N = Integer.valueOf(in.nextLine());
-            System.out.println("Case #" + i + ":\n" + result(N));
+            System.out.println("Case #" + i + ":\n" + result(N));//Final Output
         }
     }
 
